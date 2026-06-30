@@ -8,10 +8,13 @@ scanf("%d %d",&a,&b);
 int smallest;
 int GCD=1;
 
- if(a<b){smallest=a;}else{smallest=b;}
- for(int i=1;i<=smallest;i++){
+ if(a<b){
+  smallest=a;
+ }else{
+  smallest=b;
+ }
+ for(int i=1; i<=smallest; i++){
     if( a%i==0 && b%i==0 ){
-
         GCD=i;
     }
  }
