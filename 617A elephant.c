@@ -11,9 +11,8 @@ int main(){
 long long x;
 scanf("%lld",&x);
 int result;
-
+result=x/5;
 if(x%5==0){
-    result=x/5;
     printf("%d",result);
 }
 else
