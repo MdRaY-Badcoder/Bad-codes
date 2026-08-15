@@ -9,18 +9,15 @@
 
 int main(){
 
-char x[21];
-char y[21];
+char x[22];
+char y[22];
 
 scanf("%s",x);
 scanf("%s",y);
 
-int length1=strlen(x);
-int length2=strlen(y);
-
-if(length1>length2){
-    printf("%s",y);
-}else printf("%s",x);
+if(strcmp(x,y)<0){
+    printf("%s",x);
+}else printf("%s",y);
 
   return 0;
 }
